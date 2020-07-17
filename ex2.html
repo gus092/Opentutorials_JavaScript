@@ -2,17 +2,23 @@
 <html>
     <head>
         <meta charset = "utf-8">
+        <script src = "color.js"></script>
         <title></title>
     </head>
-    <body style = "background-color: balck;">
-        <input type = "button" value = "night" onclick= "document.querySelector('body').style.backgroundColor = 'black';
-        document.querySelector('body').style.color = 'white';">
-        <input type="button" value = "day" onclick= "document.querySelector('body').style.backgroundColor = 'white';
-        document.querySelector('body').style.color = 'black';">
+    <body>
+        <input id ="night_day" type="button" value = "night" onclick="nightDayHandler(this);
+        ">
+        <ol>
+            <li><a href = "https://www.naver.com/">NAVER로 가고 싶쟈나</a></li>
+            <li><a href = "https://www.naver.com/">NAVER로 가고 싶쟈나</a></li>
+            <li><a href = "https://www.naver.com/">NAVER로 가고 싶쟈나</a></li>
+        </ol>
         <p>
             JavaScript 이것은 지금 생활코딩의 WEB-JavaScript을 듣고 있는 실습활동이며,
             지금 만들려고 하는 페이지 화면은 버튼을 누르면 JS의 컨트롤을 통해 화면이 동적으로 바뀌는 화면을 구성하려고 
             노력중입니다. 
-        </p>
+        </p> 
+         <input type="button" value = "night" onclick="nightDayHandler(this);
+        ">
     </body> 
 </html>
